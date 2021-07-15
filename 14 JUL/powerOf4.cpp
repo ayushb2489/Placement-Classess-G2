@@ -6,7 +6,7 @@ bool powerOf4 (int n)
 {
     if (n % 4 != 0)
         return false;
-    if (n == 4 || n == 0)
+    if (n == 4 || n == 1)
         return true;
     return powerOf4 (n / 4);
 }

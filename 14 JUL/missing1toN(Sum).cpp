@@ -8,7 +8,7 @@ int missingNumber (int* arr, int n)
     int sum = 0;
     for (int i = 0; i < n; i++)
         sum += arr[i];
-    return abs(sumActual - sum);
+    return sumActual - sum;
 }
 
 int main()
